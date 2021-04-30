@@ -1,13 +1,21 @@
+:root {
+  --mainBackground: #000E0C;
+  --mainWhite: #E7F5F4;
+  --mainTextGray: #ACB1B1;
+  --mainGreen:#006057;
+
+}
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  background-color: var(--mainBackground);
+  color: var(--mainTextGray);
+  font-family: 'PT Mono', monospace;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  width: 80%;
+  margin: auto;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: 'PT Mono', monospace;
 }

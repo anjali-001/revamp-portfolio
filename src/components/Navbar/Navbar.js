@@ -9,7 +9,7 @@ import logodark from '../../assets/logodark.png'
 function Navbar() {
     return (
         <div className="navbar">
-                <img src={logodark}/>
+                <Link to="/"><img src={logodark}/></Link>
                 <div className="navbar-right">
                 <Link to='/'><p>Projects</p></Link>
                 <Link to='/'><p>Blog</p></Link>

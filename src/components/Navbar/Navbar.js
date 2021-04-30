@@ -18,6 +18,7 @@ function Navbar() {
                 <Link><p><FeatherIcon icon="send"/></p></Link>
                 <Link><p className="btn-theme"><FeatherIcon icon="sun"/></p></Link>
                 </div>
+                
             
         </div>
     )

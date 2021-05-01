@@ -5,10 +5,12 @@ import Home from './pages/Home/Home'
 import Blog from './pages/Blog/Blog'
 import Projects from './pages/Projects/Projects'
 import Bookmarks from './pages/Bookmarks/Bookmarks'
+import snowflake from './assets/snowflake.svg'
 
 function App() {
   return (
-    <div>
+    <div className="parent">
+    <img src={snowflake} className="child" style={{position:"absolute"}}/>
      <Navbar/>
      <Switch>
        <Route path='/' exact component={Home}/>

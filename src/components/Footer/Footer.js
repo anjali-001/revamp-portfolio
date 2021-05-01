@@ -7,7 +7,7 @@ function Footer() {
         <div className="footer">
 
             {/* Horizontal line */}
-            <div className="footer-line" style={{height:"1px", width:"40vw", backgroundColor:"#ACB1B1", margin:"auto"}}>
+            <div className="footer-line" style={{height:"1px", width:"40vw", backgroundColor:"#ACB1B1", margin:"auto",opacity:"0.2"}}>
 
             </div>
 
@@ -19,7 +19,7 @@ function Footer() {
                 <FeatherIcon icon="linkedin"/>
                 <FeatherIcon icon="instagram"/>
             </div>
-            <div> <span style={{width:"20px"}}>&#169;</span> Anjali</div>
+            <div style={{opacity:"0.5"}}> <span style={{width:"20px"}}>&#169;</span> Anjali</div>
             </div>
 
         </div>

@@ -3,6 +3,7 @@
     bottom: 10vh;
     left: 0;
     right: 0;
+    background-color: var(--mainBackground);
 }
 
 .footer-icons{
@@ -32,10 +33,10 @@
 /* Mobile responsive */
 @media only screen and (max-width: 767px) {
     .footer-line{
-        width: 100vw !important;
+        width: 80vw !important;
     }
     .footer-content{
-        width: 100%;
+        width: 80%;
         padding: 0 10px;
         box-sizing: border-box;
     }

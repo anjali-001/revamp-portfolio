@@ -25,10 +25,10 @@ function Navbar() {
                     <img src={logodark}/>
                 </Link>
                 <div className="navbar-right">
-                <Link to='/'>
+                <Link to='/projects'>
                     <p>Projects</p>
                 </Link>
-                <Link to='/'>
+                <Link to='/blog'>
                     <p>Blog</p>
                 </Link>
                 <Link to='/'>

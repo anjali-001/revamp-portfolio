@@ -1,6 +1,8 @@
 .navbar{
     display: flex;
     align-items: center;
+    box-sizing: border-box;
+    padding: 0 10px;
 }
 
 .navbar img {
@@ -43,12 +45,22 @@
     height:20px;
     display: none;
 }
-
+.dropdown-content{
+    display: none;
+    position: fixed;
+    right: 0;
+    top: 56px;
+    align-items: center;
+}
+.dropdown-content p{
+    margin: 10px !important;
+}
 @media only screen and (max-width: 767px) {
     .nav-icon{
         display: none;
     } 
     .navbar-menu{
         display: block;
+        width: 10px !important;
     }
   }

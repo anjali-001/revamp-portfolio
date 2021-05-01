@@ -4,7 +4,7 @@
 }
 
 .navbar img {
-    width: 100px;
+    width: 36px;
 }
 
 .navbar-right{
@@ -29,9 +29,26 @@
 
 }
 
+
 /* Theme Chahneg Icon Customization */
 
 /* .btn-theme{
     color: var(--mainWhite) !important;
     margin-left: 24px !important;
 } */
+
+
+.navbar-menu{
+    width: 20px;
+    height:20px;
+    display: none;
+}
+
+@media only screen and (max-width: 767px) {
+    .nav-icon{
+        display: none;
+    } 
+    .navbar-menu{
+        display: block;
+    }
+  }

@@ -1,0 +1,32 @@
+.footer{
+
+}
+
+.footer-icons{
+    color: var(--mainGreen);
+    /* margin: 20px; */
+}
+
+.footer-icons svg:hover{
+    color: var(--mainTextGray);
+    transition: color 0.1s ease-in;
+
+}
+
+.footer-icons svg {
+    margin-right: 20px;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width:60vw;
+    margin: auto;
+    margin-top: 10px;
+}
+
+@media only screen and (max-width: 767px) {
+    .footer-content{
+        width: 100%;
+    }
+  }

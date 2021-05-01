@@ -10,11 +10,12 @@ function Navbar() {
     const [drop, setDrop] = useState(false)
     const showDropdown = () =>{
         if(!drop){
-        document.querySelector(".dropdown-content").style.display = "block"
+        document.querySelector(".dropdown-content").style.top = "56px"
+
         setDrop(true)
         }
         else{
-        document.querySelector(".dropdown-content").style.display = "none"
+        document.querySelector(".dropdown-content").style.top = "-156px"
         setDrop(false)
         }
     }

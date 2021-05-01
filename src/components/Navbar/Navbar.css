@@ -3,6 +3,7 @@
     align-items: center;
     box-sizing: border-box;
     padding: 0 10px;
+    background-color: var(--mainBackground);
 }
 
 .navbar img {
@@ -32,13 +33,6 @@
 }
 
 
-/* Theme Chahneg Icon Customization */
-
-/* .btn-theme{
-    color: var(--mainWhite) !important;
-    margin-left: 24px !important;
-} */
-
 
 .navbar-menu{
     width: 20px;
@@ -46,15 +40,18 @@
     display: none;
 }
 .dropdown-content{
-    display: none;
     position: fixed;
     right: 0;
-    top: 56px;
+    top: -156px;
     align-items: center;
+    z-index: -100;
+    transition: top 0.5s ease-in;
 }
 .dropdown-content p{
     margin: 10px !important;
 }
+
+
 @media only screen and (max-width: 767px) {
     .nav-icon{
         display: none;

@@ -7,7 +7,7 @@ function Footer() {
         <div className="footer">
 
             {/* Horizontal line */}
-            <div className="footer-line" style={{height:"1px", width:"60vw", backgroundColor:"#ACB1B1", margin:"auto"}}>
+            <div className="footer-line" style={{height:"1px", width:"40vw", backgroundColor:"#ACB1B1", margin:"auto"}}>
 
             </div>
 

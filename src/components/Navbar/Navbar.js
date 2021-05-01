@@ -21,23 +21,43 @@ function Navbar() {
     }
     return (
         <div className="navbar">
-                <Link to="/"><img src={logodark}/></Link>
+                <Link to="/">
+                    <img src={logodark}/>
+                </Link>
                 <div className="navbar-right">
-                <Link to='/'><p>Projects</p></Link>
-                <Link to='/'><p>Blog</p></Link>
-                <Link to='/'><p>Resume</p></Link>
+                <Link to='/'>
+                    <p>Projects</p>
+                </Link>
+                <Link to='/'>
+                    <p>Blog</p>
+                </Link>
+                <Link to='/'>
+                    <p>Resume</p>
+                </Link>
                 <div class="dropdown">
                 <img className="navbar-menu" src={menuIcon} onClick={showDropdown} />
                 <div class="dropdown-content">
-                <Link className=""><p><FeatherIcon icon="bookmark"/></p></Link>
-                <Link className=""><p><FeatherIcon icon="send"/></p></Link>
-                <Link className=""><p className="btn-theme"><FeatherIcon icon="sun"/></p></Link>
+                <Link className="">
+                    <p><FeatherIcon icon="bookmark"/></p>
+                </Link>
+                <Link className="">
+                    <p><FeatherIcon icon="send"/></p>
+                </Link>
+                <Link className="">
+                    <p className="btn-theme"><FeatherIcon icon="sun"/></p>
+                </Link>
                 </div>
                 </div>
                 {/* <img className="navbar-menu" src={menuIcon}/> */}
-                <Link className="nav-icon"><p><FeatherIcon icon="bookmark"/></p></Link>
-                <Link className="nav-icon"><p><FeatherIcon icon="send"/></p></Link>
-                <Link className="nav-icon"><p className="btn-theme"><FeatherIcon icon="sun"/></p></Link>
+                <Link className="nav-icon">
+                    <p><FeatherIcon icon="bookmark"/></p>
+                </Link>
+                <Link className="nav-icon">
+                    <p><FeatherIcon icon="send"/></p>
+                </Link>
+                <Link className="nav-icon">
+                    <p className="btn-theme"><FeatherIcon icon="sun"/></p>
+                </Link>
                 </div>
                 
             

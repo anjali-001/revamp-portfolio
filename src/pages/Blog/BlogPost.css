@@ -1,0 +1,17 @@
+.blogpost:hover {
+    color: var(--mainWhite);
+    cursor: pointer;
+    transition: color 0.4s ease-in;
+}
+
+.title-bp{
+    font-size: 24px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.date-bp{
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 0px;
+}

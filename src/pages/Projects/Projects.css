@@ -1,0 +1,35 @@
+.projects{
+    width: 40vw;
+    margin: auto;
+    margin-top: 20vh;
+}
+.ind-projects{
+    margin-bottom: 15px;
+}
+.ind-projects:hover{
+    color: var(--mainWhite);
+    cursor: pointer;
+    transition: color 0.4s ease-in;
+}
+.ip{
+    display: flex;
+}
+
+.ip p{
+    font-size: 20px;
+    margin: 0 0 0 15px;
+}
+.project-icon{
+    width: 32px;
+    height: auto;
+}
+.project-desc{
+    margin: 0;
+    margin-left: 45px;
+}
+
+@media only screen and (max-width: 767px ){
+    .projects{
+        width: 70vw;
+    }
+}

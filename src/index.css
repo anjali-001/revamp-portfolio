@@ -25,3 +25,70 @@ code {
     width: 100%;
   }  
 }
+
+/* first snowflake animation */
+
+.child1{
+  transition: transform 1s linear;
+  width: 50px;
+  animation: movement 20s ease-in 1;
+  animation-fill-mode: forwards;
+  opacity: 1;
+
+}
+
+@keyframes movement {
+  0%{
+    width:100px;
+    transform: translateY(0) translateX(0);
+    opacity: 1;
+  }
+  33%{
+    width: 90px;
+    opacity: 0.75;
+  }
+  66%{
+    width: 70px;
+    opacity: 0.5;
+  }
+  100%{
+    width: 50px;
+    transform: translateY(73vh) translateX(35vw) rotate(270deg);
+    animation-play-state: paused;
+    opacity: 0;
+  }
+}
+
+
+/* Second snowflake animation */
+
+
+.child2{
+  transition: transform 1s linear;
+  width: 100px;
+  animation: movement2 20s ease-in 1;
+  animation-fill-mode: forwards;
+  opacity: 1;
+}
+
+@keyframes movement2 {
+  0%{
+    width:120px;
+    transform: translateY(0) translateX(50vw);
+    opacity: 1;
+  }
+  33%{
+    width: 90px;
+    opacity: 0.75;
+  }
+  66%{
+    width: 60px;
+    opacity: 0.5;
+  }
+  100%{
+    width: 30px;
+    transform: translateY(72vh) translateX(45vw) rotate(270deg);
+    animation-play-state: paused;
+    opacity: 0.25;
+  }
+}

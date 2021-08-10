@@ -35,3 +35,9 @@
 .blog-header{
     color: var(--mainWhite);
 }
+
+@media only screen and (max-width:767px){
+  .blog{
+    width: 70vw;
+  }
+}

@@ -27,3 +27,9 @@
     margin: 0;
     margin-left: 45px;
 }
+
+@media only screen and (max-width: 767px ){
+    .projects{
+        width: 70vw;
+    }
+}

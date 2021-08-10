@@ -43,9 +43,9 @@ function Navbar() {
                 <Link className="">
                     <p><FeatherIcon icon="send"/></p>
                 </Link>
-                <Link className="">
+                {/* <Link className="">
                     <p className="btn-theme"><FeatherIcon icon="sun"/></p>
-                </Link>
+                </Link> */}
                 </div>
                 </div>
                 {/* <img className="navbar-menu" src={menuIcon}/> */}
@@ -55,9 +55,9 @@ function Navbar() {
                 <Link className="nav-icon">
                     <p><FeatherIcon icon="send"/></p>
                 </Link>
-                <Link className="nav-icon">
+                {/* <Link className="nav-icon">
                     <p className="btn-theme"><FeatherIcon icon="sun"/></p>
-                </Link>
+                </Link> */}
                 </div>
                 
             

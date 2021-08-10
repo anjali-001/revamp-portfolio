@@ -35,7 +35,7 @@ function Navbar() {
                     <p>Resume</p>
                 </Link>
                 <div class="dropdown">
-                <img className="navbar-menu" src={menuIcon} onClick={showDropdown} />
+                <img className="navbar-menu" src={menuIcon} onClick={showDropdown} alt="menu"/>
                 <div class="dropdown-content">
                 <Link className="">
                     <p><FeatherIcon icon="bookmark"/></p>

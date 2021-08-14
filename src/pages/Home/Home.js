@@ -6,9 +6,15 @@ function Home() {
         <div className="home">
             <h1>Anjali</h1>
             <div className="home-content">
-            <p>Donec sollicitudin molestie malesuada. Proin eget tortor risus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Proin eget tortor risus. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            <p>Cras ultricies ligula sed magna dictum porta. Cras ultricies ligula sed magna dictum porta. porttitor accumsan tincidunt. Donec rutrum congue leo eget <span className="home-word">Resume</span>.</p>
-            <p>\Sed porttitor lectus nibh. Sed porttitor lectus nibh. Quisque velit nisi, Instagram lacinia in, LinkedIn id enim. Nulla quis lorem ut libero malesuada feugiat. Nulla porttitor accumsan tincidunt.</p>
+            <p>Hey, I am Anjali.</p>
+            <p>A full stack developer who loves to play around and tinker with JavaScript. You can find most of my work <span className="home-word">here</span></p>
+            <h3>What have I been up to?</h3>
+            <p><span className="home-word">MLH Fellow'21</span>: Got selected for the MLH Fellowship for the Spring'21 Batch and worked on awesome projects with an amazing bunch of folks</p>
+            <p><span className="home-word">DSC-HIT, Core Team Member and Director of Outreach'19</span>: Will not be exaggerating if I say that a fair share of my initial tech journey is due to this community.</p>
+            {/* <br/> */}
+            <p>These days I am building <span className="home-word">Deck</span>, one functionality at a time.</p>
+            <p>I like to believe that I do have a life beyond my computer screen(or do I?). Anyway, I like to paint and be it a bug I can't resolve or some problem, I like to vent it out via art. Always up for a talk about web development(except arguments on JavaScript Frameworks), art or mechanical keyboards.</p>
+            <p>You can connect with me on any of the social platform or drop a <span className="home-word">mail</span></p>
             </div>
         </div>
     )

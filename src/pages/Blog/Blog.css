@@ -1,11 +1,11 @@
 .blog{
-    width: 40vw;
+    width: 45vw;
     margin: auto;
-    margin-top: 20vh;
+    margin-top: 10vh;
 }
 
 .blog-post {
-    height: 50vh;
+    height: 60vh;
     overflow-y: scroll;
 }
 

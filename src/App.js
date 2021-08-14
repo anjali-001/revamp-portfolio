@@ -9,9 +9,9 @@ import snowflake from './assets/snowflake.svg'
 
 function App() {
   return (
-    <div className="parent">
-    <img src={snowflake} className="child1" style={{position:"absolute"}} alt="snowflake"/>
-    <img src={snowflake} className="child2" style={{position:"absolute"}}/>
+    <>
+    {/* <img src={snowflake} className="child1" style={{position:"absolute"}} alt="snowflake"/>
+    <img src={snowflake} className="child2" style={{position:"absolute"}}/> */}
 
      <Navbar/>
      <Switch>
@@ -21,7 +21,7 @@ function App() {
        <Route path='/bookmarks' exact component={Bookmarks}/>
      </Switch>
      <Footer/>
-    </div>
+    </>
   );
 }
 

@@ -1,4 +1,5 @@
 import React from 'react'
+import FeatherIcon from "feather-icons-react";
 import './Home.css'
 
 function Home() {
@@ -6,8 +7,9 @@ function Home() {
         <div className="home">
             <h1>Anjali</h1>
             <div className="home-content">
-            <p>Hey, I am Anjali.</p>
+            <p>🐙 Hey, I am Anjali.</p>
             <p>A full stack developer and indie-builder who loves to play around and tinker with JavaScript. You can find most of my work <span className="home-word">here</span></p>
+            
             <h3>What have I been up to?</h3>
             <p><span className="home-word">MLH Fellow'21</span>: Got selected for the MLH Fellowship for the Spring'21 Batch and worked on awesome projects with an amazing bunch of folks</p>
             <p><span className="home-word">DSC-HIT, Core Team Member and Director of Outreach'19</span>: Will not be exaggerating if I say that a fair share of my initial tech journey is due to this community.</p>

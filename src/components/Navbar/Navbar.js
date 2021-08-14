@@ -52,9 +52,9 @@ function Navbar() {
                 <Link className="nav-icon">
                     <p><FeatherIcon icon="bookmark"/></p>
                 </Link>
-                <Link className="nav-icon">
+                {/* <Link className="nav-icon">
                     <p><FeatherIcon icon="send"/></p>
-                </Link>
+                </Link> */}
                 {/* <Link className="nav-icon">
                     <p className="btn-theme"><FeatherIcon icon="sun"/></p>
                 </Link> */}

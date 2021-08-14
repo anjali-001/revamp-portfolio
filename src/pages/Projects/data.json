@@ -1,0 +1,65 @@
+{
+    "projects": [
+      {
+        "project": "Attack on Web",
+        "id": "1",
+        "link": "https://github.com/anjali-001/attack-on-web",
+        "tech stack": "languages/frameworks",
+        "language": "jekyll",
+        "platform": "web",
+        "descripting": "A CLI dev tool to look for vulnerable API keys in your source code",
+        "icon":"code"
+      },
+      {
+        "project": "Indie Threads",
+        "id": "2",
+        "link": "https://github.com/anjali-001/indie-threads",
+        "tech stack": "languages/frameworks",
+        "language": "jekyll",
+        "platform": "mobile",
+        "descripting": "A discussion/promotion forum for indie games and game devs.",
+        "icon": "terminal"
+      },
+      {
+        "project": "Bitter Links",
+        "id": "3",
+        "link": "https://github.com/anjali-001/BitterLinks-url-shortener",
+        "tech stack": "languages/frameworks",
+        "language": "jekyll",
+        "platform": "web",
+        "descripting": "A URL shortener for shortening and customising long URL to a link that you can remember.",
+        "icon":"link"
+      },
+      {
+        "project": "JSR SOS",
+        "id": "4",
+        "link": "https://github.com/anjali-001/jsr-sos",
+        "tech stack": "languages/frameworks",
+        "language": "jekyll",
+        "platform": "mobile",
+        "descripting": "It acts as a common place for all the resources avialable for fighting covid situation in a country.",
+        "icon": "globe"
+      },
+      {
+        "project": "Peek",
+        "id": "5",
+        "link": "https://github.com/anjali-001/peek",
+        "tech stack": "languages/frameworks",
+        "language": "jekyll",
+        "platform": "mobile",
+        "descripting": "Peek is a video-conferencing web app.",
+        "icon": "video"
+      },
+      {
+        "project": "Downnine",
+        "id": "6",
+        "link": "https://github.com/anjali-001/newdownnine",
+        "tech stack": "languages/frameworks",
+        "language": "jekyll",
+        "platform": "mobile",
+        "descripting": "Frontend of an e-commerce website. Also, first project :')",
+        "icon": "shopping-bag"
+      }
+      
+    ]
+  }

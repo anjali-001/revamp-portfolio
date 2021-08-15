@@ -8,7 +8,10 @@
     height: 60vh;
     overflow-y: scroll;
 }
-
+.blog-post a{
+  text-decoration: none;
+  color: var(--mainTextGray);
+}
 ::-webkit-scrollbar {
     width: 4px;
   }
@@ -35,6 +38,14 @@
 .blog-header{
     color: var(--mainWhite);
 }
+.blog-icon{
+  color: var(--mainTextGray) !important;
+}
+
+/* .blog-content{
+  display: flex;
+  align-items: center;
+} */
 
 @media only screen and (max-width:767px){
   .blog{

@@ -4,6 +4,8 @@
     box-sizing: border-box;
     padding: 0 10px;
     background-color: var(--mainBackground);
+    position: sticky;
+    top: 0;
 }
 
 .navbar img {

@@ -1,15 +1,18 @@
 :root {
-  --mainBackground: #000E0C;
-  --mainWhite: #E7F5F4;
-  --mainTextGray: #ACB1B1;
-  --mainGreen:#006057;
-
+  --mainBackground: #000e0c;
+  --mainWhite: #e7f5f4;
+  --mainTextGray: #acb1b1;
+  --mainGreen: #006057;
+  --mainCodeBlock: #252e2d;
+  --mainCodeColor: #81c503;
+  --mainBlockComment: #815502;
 }
 body {
   margin: 0;
   background-color: var(--mainBackground);
   color: var(--mainTextGray);
-  font-family: 'PT Mono', monospace;
+  /* font-family: "PT Mono", monospace; */
+  font-family: 'Open Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   width: 100%;
@@ -17,41 +20,140 @@ body {
 }
 
 code {
-  font-family: 'PT Mono', monospace;
+  /* font-family: "PT Mono", monospace; */
+  font-family: 'Open Sans', sans-serif;
+  display:block;
+
 }
 
-@media only screen and (max-width: 767px) {
-  body{
-    width: 100%;
-  }  
+.post {
+  width: 40vw;
+  margin: auto;
+  margin-top: 10vh;
 }
+
+.post-content{
+  /* height: 60vh; */
+  overflow-y: scroll;
+}
+
+.post-cred{
+  display: flex;
+  justify-content: space-between;
+}
+
+.post img{
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.post a {
+  text-decoration: none;
+}
+
+/*Links underline design*/
+.link-word{
+  color: var(--mainWhite);
+  cursor: pointer;
+  border-bottom: 1.5px solid transparent;
+}
+
+.link-word:hover{
+  border-bottom: 1.5px solid var(--mainWhite);
+  transition: border-bottom 0.3s ease-in;
+
+}
+
+blockquote{
+  color: var(--mainTextGray);
+  border-left: 1px solid var(--mainTextGray);
+  padding-left: 0.8vw;
+}
+
+pre {
+  background-color: var(--mainCodeBlock);
+  color: var(--mainCodeColor);
+  padding: 10px;
+}
+.comment-p{
+  color: var(--mainBlockComment);
+}
+
+.tab{
+  margin-left: 1vw;
+}
+.back{
+  color: var(--mainTextGray);
+  cursor: pointer;
+  text-decoration: none !important;
+  transition: text-decoration 0.3s ease-in;
+}
+.back:hover{
+  color: var(--mainWhite);
+  cursor: pointer;
+  text-decoration: underline !important;
+}
+@media only screen and (max-width: 767px) {
+  body {
+    width: 100%;
+  }
+  .post{
+    width: 80vw;
+  }
+
+  .post img{
+    width: 100%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* first snowflake animation */
 
-.child1{
+.child1 {
   transition: transform 1s linear;
   width: 50px;
   animation: movement 20s ease-in 1;
   animation-fill-mode: forwards;
   opacity: 1;
-
 }
 
 @keyframes movement {
-  0%{
-    width:100px;
+  0% {
+    width: 100px;
     transform: translateY(0) translateX(0);
     opacity: 1;
   }
-  33%{
+  33% {
     width: 90px;
     opacity: 0.75;
   }
-  66%{
+  66% {
     width: 70px;
     opacity: 0.5;
   }
-  100%{
+  100% {
     width: 50px;
     transform: translateY(73vh) translateX(35vw) rotate(270deg);
     animation-play-state: paused;
@@ -59,11 +161,9 @@ code {
   }
 }
 
-
 /* Second snowflake animation */
 
-
-.child2{
+.child2 {
   transition: transform 1s linear;
   width: 100px;
   animation: movement2 20s ease-in 1;
@@ -72,20 +172,20 @@ code {
 }
 
 @keyframes movement2 {
-  0%{
-    width:120px;
+  0% {
+    width: 120px;
     transform: translateY(0) translateX(50vw);
     opacity: 1;
   }
-  33%{
+  33% {
     width: 90px;
     opacity: 0.75;
   }
-  66%{
+  66% {
     width: 60px;
     opacity: 0.5;
   }
-  100%{
+  100% {
     width: 30px;
     transform: translateY(72vh) translateX(45vw) rotate(270deg);
     animation-play-state: paused;

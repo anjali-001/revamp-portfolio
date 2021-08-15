@@ -40,18 +40,6 @@
     -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
   }
 
-  .home-word{
-    color: var(--mainWhite);
-    cursor: pointer;
-    border-bottom: 1.5px solid transparent;
-  }
-
-  .home-word:hover{
-    border-bottom: 1.5px solid var(--mainWhite);
-    transition: border-bottom 0.3s ease-in;
-
-  }
-
   @media only screen and (max-width:767px) {
     .home{
       width: 70vw;

@@ -85,7 +85,7 @@ const postCwm = () => {
         </p>
         <p>
           <i>
-            I am working on a project Deck. Me and my teammate had to demo it in
+            I am working on a project <a className="link-word" href="withdeck.com">Deck</a>. Me and my teammate had to demo it in
             a meeting. However, just an hour before the meeting, we encountered
             a bug, solving that led to another bug(:))and soon we realised that
             we have broken the thing beyond repair in a scope of an hour.

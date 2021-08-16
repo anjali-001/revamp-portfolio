@@ -94,9 +94,18 @@ pre {
   cursor: pointer;
   text-decoration: underline !important;
 }
+
+.main-container{
+  width: 45vw;
+  margin: auto;
+  margin-top: 10vh;
+}
 @media only screen and (max-width: 767px) {
   body {
     width: 100%;
+  }
+  .main-container{
+    width: 70vw;
   }
   .post{
     width: 80vw;

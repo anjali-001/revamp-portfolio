@@ -34,22 +34,22 @@ function Navbar() {
                 <Link to='/'>
                     <p>Resume</p>
                 </Link>
-                <div class="dropdown">
+                {/* <div class="dropdown">
                 <img className="navbar-menu" src={menuIcon} onClick={showDropdown} alt="menu"/>
                 <div class="dropdown-content">
-                <Link className="">
+                <Link className="" to='/bookmarks'>
                     <p><FeatherIcon icon="bookmark"/></p>
-                </Link>
-                <Link className="">
+                </Link> */}
+                {/* <Link className="">
                     <p><FeatherIcon icon="send"/></p>
-                </Link>
+                </Link> */}
                 {/* <Link className="">
                     <p className="btn-theme"><FeatherIcon icon="sun"/></p>
                 </Link> */}
-                </div>
+                {/* </div> */}
                 </div>
                 {/* <img className="navbar-menu" src={menuIcon}/> */}
-                <Link className="nav-icon">
+                <Link className="nav-icon" to='/bookmarks'>
                     <p><FeatherIcon icon="bookmark"/></p>
                 </Link>
                 {/* <Link className="nav-icon">
@@ -58,7 +58,7 @@ function Navbar() {
                 {/* <Link className="nav-icon">
                     <p className="btn-theme"><FeatherIcon icon="sun"/></p>
                 </Link> */}
-                </div>
+                {/* </div> */}
                 
             
         </div>

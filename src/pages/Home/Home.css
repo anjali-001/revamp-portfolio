@@ -12,6 +12,18 @@
     overflow-y: scroll;
 }
 
+.github-link{
+  color: var(--mainWhite);
+  cursor: pointer;
+  border-bottom: 1.5px solid transparent;
+  text-decoration: none;
+}
+
+.github-link:hover{
+  border-bottom: 1.5px solid var(--mainWhite);
+  transition: border-bottom 0.3s ease-in;
+}
+
 .home p{
     font-size: 19px;
     line-height: 1.5;

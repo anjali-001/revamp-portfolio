@@ -11,7 +11,7 @@ function Home() {
         <p>
           Full stack developer and indie-builder who loves to play around and
           tinker with JavaScript. You can find most of my work{" "}
-          <span className="home-word">here</span>
+          <span className="home-word"><a href="https://github.com/anjali-001">here</a></span>
         </p>
 
         <h3>What have I been up to?</h3>

@@ -16,20 +16,20 @@ function Home() {
 
         <h3>What have I been up to?</h3>
         <p>
-          <span className="link-word">MLH Fellow'21</span>: Got selected for the
+          <span className="link-word"><a href="https://fellowship.mlh.io/" className="github-link">MLH Fellow'21</a></span>: Got selected for the
           MLH Fellowship for the Spring'21 Batch and worked on awesome projects
           with an amazing bunch of folks
         </p>
         <p>
           <span className="link-word">
-            DSC-HIT, Core Team Member and Director of Outreach'19
+            <a href="https://dschit.com/" className="github-link">DSC-HIT, Core Team Member and Director of Outreach'19</a>
           </span>
           : Will not be exaggerating if I say that a fair share of my initial
           tech journey is due to this community.
         </p>
         {/* <br/> */}
         <p>
-          These days I am building <span className="link-word">Deck</span>, one
+          These days I am building <span className="link-word"><a href="https://withdeck.com" className="github-link">Deck</a></span>, one
           functionality at a time.
         </p>
         <p>

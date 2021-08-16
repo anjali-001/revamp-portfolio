@@ -31,34 +31,14 @@ function Navbar() {
                 <Link to='/blog'>
                     <p>Blog</p>
                 </Link>
-                <Link to='/'>
+                <a href='https://drive.google.com/file/d/1Hyn_x6lkQwwio0uKxuGYeqDl6YCQ262D/view?usp=sharing'>
                     <p>Resume</p>
-                </Link>
-                {/* <div class="dropdown">
-                <img className="navbar-menu" src={menuIcon} onClick={showDropdown} alt="menu"/>
-                <div class="dropdown-content">
-                <Link className="" to='/bookmarks'>
-                    <p><FeatherIcon icon="bookmark"/></p>
-                </Link> */}
-                {/* <Link className="">
-                    <p><FeatherIcon icon="send"/></p>
-                </Link> */}
-                {/* <Link className="">
-                    <p className="btn-theme"><FeatherIcon icon="sun"/></p>
-                </Link> */}
-                {/* </div> */}
+                </a>
+                
                 </div>
-                {/* <img className="navbar-menu" src={menuIcon}/> */}
                 <Link className="nav-icon" to='/bookmarks'>
                     <p><FeatherIcon icon="bookmark"/></p>
                 </Link>
-                {/* <Link className="nav-icon">
-                    <p><FeatherIcon icon="send"/></p>
-                </Link> */}
-                {/* <Link className="nav-icon">
-                    <p className="btn-theme"><FeatherIcon icon="sun"/></p>
-                </Link> */}
-                {/* </div> */}
                 
             
         </div>

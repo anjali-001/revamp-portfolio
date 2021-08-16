@@ -4,14 +4,15 @@ import "./Bookmarks.css";
 function Bookmarks() {
   return (
     <div className="main-container">
-      <h2>Bookmarks</h2>
+      <h1>Bookmarks</h1>
+      
+      <div className="bookmark-content">
       <p className="recommend">
         <i>
           Some stuff here are ones that I make use of during developement and
           some that I found on the internet which is just too good to not share.
         </i>
       </p>
-      <div className="bookmark-content">
         {/* Font Bookmarks */}
         <h3>Fonts</h3>
         <blockquote>

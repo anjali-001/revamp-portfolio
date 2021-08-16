@@ -14,10 +14,9 @@ function Footer() {
             {/* Footer Content */}
             <div className="footer-content">
             <div className="footer-icons">
-                <FeatherIcon icon="github"/>
-                <FeatherIcon icon="twitter"/>
-                <FeatherIcon icon="linkedin"/>
-                <FeatherIcon icon="instagram"/>
+                <a href="https://github.com/anjali-001"><FeatherIcon icon="github"/></a> 
+                <a href="https://twitter.com/_Anjali19_"><FeatherIcon icon="twitter"/></a>
+                <a href="https://www.linkedin.com/in/anjali-singh19/"><FeatherIcon icon="linkedin"/></a>
             </div>
             <div style={{opacity:"0.5"}}> <span style={{width:"20px"}}>&#169;</span> Anjali</div>
             </div>

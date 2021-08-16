@@ -6,9 +6,8 @@
     background-color: var(--mainBackground);
 }
 
-.footer-icons{
+.footer-icons a{
     color: var(--mainGreen);
-    /* margin: 20px; */
 }
 
 .footer-icons svg:hover{

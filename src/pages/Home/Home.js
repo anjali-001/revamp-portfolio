@@ -37,8 +37,8 @@ function Home() {
           do I?). So, at times you'll find me painting.
         </p>
         <p>
-          <i>Always up for a talk about web development(except arguments on
-          JavaScript Frameworks), art or mechanical keyboards.{" "}</i>
+          Always up for a talk about web development(except arguments on
+          JavaScript Frameworks), art or mechanical keyboards. You can connect with me on <a href="https://twitter.com/_Anjali19_" className="github-link">Twitter</a> or drop a mail at <a href="mailto:hi@anjali.wtf" className="github-link">hi@anjali.wtf</a>{" "}
         </p>
       </div>
     </div>

@@ -104,6 +104,10 @@ pre {
   .main-container{
     width: 80vw;
   }
+  .post{
+    width: 80vw;
+  }
+
 }
 @media only screen and (max-width: 767px) {
   body {

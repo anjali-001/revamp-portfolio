@@ -61,6 +61,12 @@
     -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
   }
 
+  @media only screen and (max-width:1023px){
+    .projects{
+      width: 70vw;
+    }
+  }
+
 @media only screen and (max-width: 767px ){
     .projects{
         width: 70vw;

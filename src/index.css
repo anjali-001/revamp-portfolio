@@ -100,6 +100,11 @@ pre {
   margin: auto;
   margin-top: 10vh;
 }
+@media only screen and (max-width:1023px){
+  .main-container{
+    width: 80vw;
+  }
+}
 @media only screen and (max-width: 767px) {
   body {
     width: 100%;

@@ -27,11 +27,16 @@ function Home() {
           : Will not be exaggerating if I say that a fair share of my initial
           tech journey is due to this community.
         </p>
-        {/* <br/> */}
         <p>
           These days I am building <span className="link-word"><a href="https://withdeck.com" className="github-link">Deck</a></span>, one
           functionality at a time.
         </p>
+        <h3>Open source</h3>
+        <p>As someone who has contantly learns from open source, it feels good to be able to contribute to projects that is used by someone. My recent contribution,</p>
+        <p>
+          <span className="link-word"><a href="https://github.com/SimplQ/simplQ-frontend" className="github-link">SimpleQ</a></span>: It is a completely web based queue management solution that anyone can use to create instant virtual queues.
+        </p>
+        {/* <br/> */}
         <p>
           I like to believe that I do have a life beyond my computer screen(or
           do I?). So, at times you'll find me painting.

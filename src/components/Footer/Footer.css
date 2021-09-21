@@ -28,6 +28,14 @@
     margin-top: 16px;
 }
 
+@media only screen and (max-width:1023px){
+    .footer-line{
+      width: 70vw !important;
+    }
+    .footer-content{
+        width: 70vw;
+    }
+  }
 
 /* Mobile responsive */
 @media only screen and (max-width: 767px) {

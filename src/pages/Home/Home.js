@@ -30,7 +30,7 @@ function Home() {
         <p>
           <span className="link-word">
             <a href="https://www.zfellows.com/" className="github-link">
-              Z Fellow
+              Z Fellow'21
             </a>
           </span>
           : Was a part of Z Fellows October'21 cohort for{" "}

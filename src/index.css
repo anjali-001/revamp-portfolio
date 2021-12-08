@@ -115,6 +115,7 @@ pre {
   }
   .main-container{
     width: 70vw;
+    padding-bottom: 5vh;
   }
   .post{
     width: 80vw;

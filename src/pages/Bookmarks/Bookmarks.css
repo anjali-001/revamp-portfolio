@@ -5,8 +5,8 @@
     color: var(--mainTextGray);
 }
 .bookmark-content{
-    height: 60vh;
-    overflow-y: scroll;
+    min-height: 60vh;
+    /* overflow-y: scroll; */
 }
   /* Track */
   ::-webkit-scrollbar-track {

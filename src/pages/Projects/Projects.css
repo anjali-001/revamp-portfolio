@@ -1,12 +1,12 @@
 .projects{
-    width: 45vw;
+    width: 40vw;
     margin: auto;
     margin-top: 10vh;
 }
 
 .project-content{
-    height: 60vh;
-    overflow-y: scroll;
+    min-height: 60vh;
+    /* overflow-y: scroll; */
 }
 
 .projects a{

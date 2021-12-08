@@ -68,7 +68,7 @@ code {
 blockquote{
   color: var(--mainTextGray);
   border-left: 1px solid var(--mainTextGray);
-  padding-left: 0.8vw;
+  padding-left: 10px;
 }
 
 pre {
@@ -96,7 +96,7 @@ pre {
 }
 
 .main-container{
-  width: 45vw;
+  width: 40vw;
   margin: auto;
   margin-top: 10vh;
 }

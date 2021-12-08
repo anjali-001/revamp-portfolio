@@ -9,7 +9,7 @@ function Home() {
       <div className="home-content">
         <p>🐙 Hey, I am Anjali.</p>
         <p>
-          Full stack developer and indie-builder who loves to play around and
+          Full-stack developer and indie-builder who loves to play around and
           tinker with JavaScript. You can find most of my work{" "}
           <span className="home-word">
             <a className="github-link" href="https://github.com/anjali-001">
@@ -59,13 +59,13 @@ function Home() {
               DSC-HIT, Core Team Member and Director of Outreach'19
             </a>
           </span>
-          : Will not be exaggerating if I say that a fair share of my initial
+          : I will not be exaggerating if I say that a fair share of my initial
           tech journey is due to this community.
         </p>
         <h3>Open source</h3>
         <p>
           As someone who has constantly learnt from open source, it feels good
-          to be able to contribute to projects that is used by someone. My
+          to be able to contribute to projects that are used by someone. My
           recent contribution,
         </p>
         <p>
@@ -77,7 +77,7 @@ function Home() {
               SimpleQ
             </a>
           </span>
-          : It is a completely web based queue management solution that anyone
+          : It is a completely web-based queue management solution that anyone
           can use to create instant virtual queues.
         </p>
         {/* <br/> */}

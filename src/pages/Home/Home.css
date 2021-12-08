@@ -1,5 +1,5 @@
 .home{
-    width: 45vw;
+    width: 40vw;
     margin: auto;
     margin-top: 10vh;
 }
@@ -8,8 +8,9 @@
     color: var(--mainWhite);
 }
 .home-content{
-    height: 60vh;
-    overflow-y: scroll;
+    /* height: 60vh; */
+    /* overflow-y: scroll; */
+    padding-bottom: 5vh;
 }
 
 .github-link{

@@ -9,7 +9,7 @@ function Bookmarks() {
       <div className="bookmark-content">
       <p className="recommend">
         <i>
-          Some stuff here are ones that I make use of during developement and
+          Some stuff here are ones that I make use of during development and
           some that I found on the internet which is just too good to not share.
         </i>
       </p>
@@ -32,7 +32,7 @@ function Bookmarks() {
         <h3>Colors Palletes</h3>
         <p className="recommend">
           <i>
-            The pain of finding a good color pallete for the next project is
+            The pain of finding a good color palette for the next project is
             often reduced by these
           </i>
         </p>

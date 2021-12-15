@@ -30,6 +30,20 @@
     line-height: 1.5;
 }
 
+.button-home{
+  padding: 15px 15px;
+  font-size: 15px;
+  background-color: var(--mainButtonColor);
+  border: none;
+  color: var(--mainWhite);
+  transition: background-color 0.2s ease-in;
+  border-radius: 4px;
+}
+.button-home:hover{
+  cursor: pointer;
+  background-color: var(--mainGreen);
+}
+
 ::-webkit-scrollbar {
     width: 4px;
   }

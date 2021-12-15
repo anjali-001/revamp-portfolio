@@ -2,6 +2,7 @@ import Navbar from './components/Navbar/Navbar'
 import Footer from './components/Footer/Footer'
 import {Switch, Route } from 'react-router-dom';
 import Home from './pages/Home/Home'
+import About from './pages/About/About'
 import Blog from './pages/Blog/Blog'
 import Projects from './pages/Projects/Projects'
 import Bookmarks from './pages/Bookmarks/Bookmarks'
@@ -19,6 +20,7 @@ function App() {
      <Navbar/>
      <Switch>
        <Route path='/' exact component={Home}/>
+       <Route path='/about' exact component={About}/>
        <Route path='/blog' exact component={Blog}/>
        <Route path='/projects' exact component={Projects}/>
        <Route path='/bookmarks' exact component={Bookmarks}/>

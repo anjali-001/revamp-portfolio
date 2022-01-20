@@ -21,6 +21,14 @@ function Home() {
         <h3>What have I been up to?</h3>
         <p>
           <span className="link-word">
+            <a href="https://mydukaan.io" className="github-link">
+              Dukaan
+            </a>
+          </span>
+          : SWE Intern. Building(and breaking) cool stuff here.
+        </p>
+        <p>
+          <span className="link-word">
             <a href="https://algobulls.com/" className="github-link">
               Algobulls - Frontend Developer
             </a>

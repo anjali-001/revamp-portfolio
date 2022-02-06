@@ -9,7 +9,7 @@ function Home() {
       <div className="home-content">
         <p>🐙 Hey, I am Anjali.</p>
         <p>
-          Full-stack developer and indie-builder who loves to play around and
+          Frontend developer and indie-builder who loves to play around and
           tinker with JavaScript. You can find most of my work{" "}
           <span className="home-word">
             <a className="github-link" href="https://github.com/anjali-001">

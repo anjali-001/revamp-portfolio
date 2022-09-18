@@ -3,7 +3,6 @@ import {Link} from 'react-router-dom'
 import './Navbar.css'
 import FeatherIcon from "feather-icons-react";
 import logodark from '../../assets/logodark.png'
-import menuIcon from '../../assets/menu-icon.svg'
 
 
 function Navbar() {

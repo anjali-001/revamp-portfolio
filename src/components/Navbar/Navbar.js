@@ -30,7 +30,7 @@ function Navbar() {
                 <Link to='/blog'>
                     <p>Blog</p>
                 </Link>
-                <a href='https://drive.google.com/file/d/1vuWJVjhZRHYZVRyGM1XiPQzT257WwaBQ/view?usp=sharing'>
+                <a target="_blank" rel='noreferrer' href='https://drive.google.com/file/d/1Erj36ybgX3M-iboqfzfoHmfDokZ1A7iN/view?usp=sharing'>
                     <p>Resume</p>
                 </a>
                 

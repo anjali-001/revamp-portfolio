@@ -25,7 +25,7 @@ function Home() {
               Dukaan
             </a>
           </span>
-          : SWE Intern. Building(and breaking) cool stuff here.
+          : Frontend Engineer. Building(and breaking) cool stuff here.
         </p>
         <p>
           <span className="link-word">

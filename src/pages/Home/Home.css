@@ -16,13 +16,16 @@
 .github-link{
   color: var(--mainWhite);
   cursor: pointer;
-  border-bottom: 1.5px solid transparent;
+  border-bottom: none;
+  box-shadow: inset 0 -1px 0 var(--mainWhite);
   text-decoration: none;
+  transition: box-shadow .2s;
 }
 
 .github-link:hover{
-  border-bottom: 1.5px solid var(--mainWhite);
-  transition: border-bottom 0.3s ease-in;
+  box-shadow: inset 0 -1.1em 0 rgba(194, 243, 210, 0.2);
+  text-decoration: none;
+  border-bottom: none;
 }
 
 .home p{
@@ -62,6 +65,11 @@
     .home{
       width: 70vw;
     }
+  }
+
+  .home-link-word{
+    color: var(--mainWhite);
+    cursor: pointer;
   }
 
   /* @media only screen and (max-width:1023px){

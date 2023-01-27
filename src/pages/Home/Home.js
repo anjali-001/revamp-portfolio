@@ -19,7 +19,7 @@ function Home() {
 
         <h3>What have I been up to?</h3>
         <p>
-          <span className="link-word">
+          <span className="home-link-word">
             <a href="https://mydukaan.io" className="github-link">
               Dukaan
             </a>
@@ -27,7 +27,7 @@ function Home() {
           : Frontend Engineer. Building(and breaking) cool stuff here.
         </p>
         <p>
-          <span className="link-word">
+          <span className="home-link-word">
             <a href="https://algobulls.com/" className="github-link">
               Algobulls - Frontend Developer
             </a>
@@ -35,13 +35,13 @@ function Home() {
           : Frontend developer intern Fall'21.
         </p>
         <p>
-          <span className="link-word">
+          <span className="home-link-word">
             <a href="https://www.zfellows.com/" className="github-link">
               Z Fellow'21
             </a>
           </span>
           : Was a part of Z Fellows October'21 cohort for{" "}
-          <span className="link-word">
+          <span className="home-link-word">
             <a
               href="https://www.producthunt.com/posts/deck-alpha"
               className="github-link"
@@ -52,7 +52,7 @@ function Home() {
           , an admin dashboard for resource sharing and access management.
         </p>
         <p>
-          <span className="link-word">
+          <span className="home-link-word">
             <a href="https://fellowship.mlh.io/" className="github-link">
               MLH Fellow'21
             </a>
@@ -61,7 +61,7 @@ function Home() {
           worked on awesome projects with an amazing bunch of folks
         </p>
         <p>
-          <span className="link-word">
+          <span className="home-link-word">
             <a href="https://dschit.com/" className="github-link">
               DSC-HIT, Core Team Member and Director of Outreach'19
             </a>
@@ -76,7 +76,7 @@ function Home() {
           recent contribution,
         </p>
         <p>
-          <span className="link-word">
+          <span className="home-link-word">
             <a
               href="https://github.com/SimplQ/simplQ-frontend"
               className="github-link"
